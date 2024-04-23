@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    margin: 20px auto;
+    font-family: 'Inter';
+  }
+  
+  form {
+    padding: 15px 25px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  form label {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  a {
+    color: #0000ff;
+    text-decoration: none;
+  }
+  
+  #wrapper,
+  #loginform {
+    margin: 0 auto;
+    padding-bottom: 25px;
+    background: #626fe4;
+    width: 600px;
+    max-width: 100%;
+    border: 0.2rem solid #212121;
+    border-radius: 1rem;
+  }
+  
+  #loginform {
+    padding-top: 18px;
+    text-align: center;
+  }
+  
+  #loginform p {
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  #chatbox {
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff;
+    height: 300px;
+    width: 530px;
+    border: 0.2rem solid #212121;
+    overflow: auto;
+    border-radius: 0.5rem;
+  }
+  
+  #name,#usermsg {
+    border-radius: 1rem;
+    border: 0.2rem solid #000000;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
+  #submitmsg,
+  #enter{
+    background: #ff9800;
+    border: none;
+    color: #000000;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+  }
+  
+  .error {
+    color: #ff0000;
+  }
+  
+  #menu {
+    padding: 15px 25px;
+    display: flex;
+  }
+  
+  #menu p.welcome {
+    flex: 1;
+    font-weight: 600;
+  }
+  
+  a#exit,
+  a#delete {
+    color: white;
+    background: #c62828;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .msgln {
+    margin: 0.5rem;
+  }
+  
+  .msgln span.left-info {
+    color: orangered;
+  }
+  
+  .msgln span.chat-time {
+    color: #666;
+    font-size: 60%;
+    vertical-align: super;
+  }
+  
+  .msgln b.user-name, .msgln b.user-name-left {
+    font-weight: bold;
+    background: #2a8cb9;
+    border-radius: 1rem;
+    border: 0.2rem solid #000000;
+    color: rgb(0, 0, 0);
+    padding: 2px 4px;
+    font-size: 90%;
+    border-radius: 4px;
+    margin: 0 5px 0 0;
+  }
+  
+  .msgln b.user-name-left {
+    background: #ff0000;
+  }
